@@ -3,9 +3,9 @@
 ---
 # Quality Attributes
 | ID   |    Quality Attribute       |  Scenario    |    Associated Use Case   |
-|:-------------:|-------------|
+|:-------------:|:-------------:|-------------|
 | QA-1 |  Availability  | The system should be running all the time without interruption. | All |
-| QA-2 |  Performance | The system should accommodate the user’s needs without long wait times or server refresh. | All |
+| QA-2 |  Performance   | The system should accommodate the user’s needs without long wait times or server refresh. | All |
 | QA-3 |  Accessibility | The system should be able to let users upload files, send messages to individuals, teams or all course participants at once.  | UC-2, UC-8, UC-10 |
 | QA-4 |  Security  | The system allows only students to change study information of others, user login will determine its user privileges and should allow determined access.  | ALL |
 | QA-5 | Interoperability | The system provides export to commonly used calendar formats and it should be interoperable with a secondary university system. | ALL |
