@@ -23,3 +23,5 @@ The elements located throughout the layers of the reference architecture from th
 
 ### Step 6: Sketch Views and Record Design Decisions
 
+![clientside](https://user-images.githubusercontent.com/32312941/49492192-4cc11200-f825-11e8-8cc0-fa768cc4083a.PNG)
+
