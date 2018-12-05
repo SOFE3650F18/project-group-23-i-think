@@ -29,6 +29,7 @@ The elements located throughout the layers of the reference architecture from th
 
 Initial domain model Fig 2.1
 
+
 |  Element  | Responsibility          |
 |:-------------:|-------------|
 |  User interface  |  Allows user input   |
@@ -37,11 +38,18 @@ Initial domain model Fig 2.1
 |  Secondary system  |  Connects to web server   |
 |  Database   |  Contains logic to perform data collection and storage.  |
 
+
+
 ![step66](https://user-images.githubusercontent.com/32312941/49493741-3b7b0400-f82b-11e8-990f-22e740bec1aa.PNG)
+
 Domain object associate with the use case model Fig 2.2
 
+
 ![step6 3](https://user-images.githubusercontent.com/32312941/49493941-00c59b80-f82c-11e8-9672-f5fb4a1453d0.PNG)
+
 Modules that supports the primary use cases Fig 2.3
+
+
 
 |  Element  | Responsibility          |
 |:-------------:|-------------|
@@ -55,7 +63,10 @@ Modules that supports the primary use cases Fig 2.3
 he event.   |
 |  Secondary System  |  Responsible for persistence operation related to the secondary university system.  |
 
+
+
 ![sqdia](https://user-images.githubusercontent.com/32312941/49494166-ab3dbe80-f82c-11e8-8df1-b5be9deb5a09.PNG)
+
 Sequence diagram for use case UC-1 Fig 2.4 
 
 
