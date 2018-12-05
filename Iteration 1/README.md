@@ -15,6 +15,9 @@ The architect must be particularly mindful of the following:
 ### Step 3: Choose One or More Elements of the System to Refine
 
 The entire CMS system will be refined due to the fact that this is a greenfield development effort. As a result, refinement is performed through decomposition. 
+![i1 step3 context diagram](https://user-images.githubusercontent.com/31861025/49493693-02429400-f82b-11e8-9b05-1022e73a34e7.PNG)
+*Context diagram for Course Management System (CMS) Fig 1.1*
+
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
 | Design Decisions and Location   | Rationale          |
