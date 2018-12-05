@@ -76,6 +76,8 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 |  Database Server | The server that hosts the legacy relational database |
 |  Secondary system | Sets the external secondary servers |
 
+---
+
 
 | Relationship | Description |
 |:-------------:|-------------|
