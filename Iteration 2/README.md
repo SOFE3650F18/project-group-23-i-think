@@ -1,5 +1,4 @@
 ## Iteration 2: Identifying Structures to Support Primary Functionality
-------
 
 ### Step 2: Establish Iteration Goal by Selecting Drivers 
 
@@ -11,9 +10,25 @@ The architect must also consider the system’s primary use cases:
 UC-1, UC-2, UC-5, UC-6, UC-7, UC-10
 
 ---
+
 ### Step 3: Choose One or More Elements of the System to Refine
 
 The elements located throughout the layers of the reference architecture from the previous iteration will be refined in this iteration.
+
+---
+
+### Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers  
+
+| Design Decisions and Location | Rationale and Assumptions |
+| --- | --- |
+| Create and Identify domain objects for the domain model | A domain model should be created and populated with a domain object. Each will be a separate functional element, encapsulated in a self-contained building block. |
+| Build the user interface for service applications to structure the system for the client | Service application expose functionality through public interfaces (i.e., Services). Services invoke service consumer components remotely. Service application structured using layers. Its layer responsible for exposing the services and exchanging information to the server part. |
+| Implement interface for displaying items | A general interface that will display all action made. Results from searches, course lists, event history, etc... (UC-1, UC-2, UC-5, UC-6). |
+| Design a module for course management | Establish a module that based on privilege level form login, will allows the user to search for course to add/remove (UC-5, UC-6). Administrators will be able to manage all aspects (UC-4) |
+| Gather and store performance data about the system | System must have a module for the collection of performance data (UA-7, CON-8). This data is important for developer and stakeholders as it reflects how well that system is doing. |
+| System privileges will be determined based on account | A login system will be implemented so that when a user logs in, there account will inform that system about their privilege type (CON-6). |
+
+---
 
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
@@ -23,6 +38,8 @@ The elements located throughout the layers of the reference architecture from th
 |  Identify Domain objects that map to functional requirements,   |  Each distinct use case functional element of the application is encapsulated in a self-contained building blocks-- domain objects (UC-1,UC-2, UC5, UC6, UC-7, UC8, UC-10, UC-11) Fig 2.2    |
 |  Build layer diagram to decompose the domain objects  |  This technique ensures that modules that support all the functionalities are identified. Client side and service side of the application with sub layers. Fig 2.3 |
 
+---
+
 ### Step 6: Sketch Views and Record Design Decisions
 
 ![step6 11](https://user-images.githubusercontent.com/32312941/49493714-1e463580-f82b-11e8-98f0-8e1b493e8593.PNG)
@@ -30,13 +47,13 @@ The elements located throughout the layers of the reference architecture from th
 Initial domain model Fig 2.1
 
 
-|  Element  | Responsibility          |
+|  Element | Responsibility |
 |:-------------:|-------------|
-|  User interface  |  Allows user input   |
-|  Web client  |  Allows user to display information about courses, event history, search or add/delete courses.   | 
-|  Web server  |  Collect data and process the request from web client  |  
-|  Secondary system  |  Connects to web server   |
-|  Database   |  Contains logic to perform data collection and storage.  |
+|  User interface | Allows user input |
+|  Web client | Allows user to display information about courses, event history, search or add/delete courses. | 
+|  Web server | Collect data and process the request from web client |  
+|  Secondary system | Connects to web server |
+|  Database | Contains logic to perform data collection and storage. |
 
 
 
