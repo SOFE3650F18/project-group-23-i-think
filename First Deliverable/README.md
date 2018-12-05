@@ -31,7 +31,7 @@
 
 ---
 # Architectural Concerns
-## Given that this is greenfield development, only a few general architectural concerns are identified initially, as shown in the following table:
+###### Given that this is greenfield development, only a few general architectural concerns are identified initially, as shown in the following table:
 | ID        | Constraint          |
 |:-------------:|-------------|
 | CRN-1 | Establishing initial system structure.  |
