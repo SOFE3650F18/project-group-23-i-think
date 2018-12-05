@@ -4,14 +4,18 @@
 
 This iteration focuses on QA-3 quality attribute scenario: The system should be able to let users upload files, send messages to individuals, teams or all course participants at once.
 
+---
+
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 | Design Decisions and Location | Rationale |
 | --- | --- |
 | Utility component for users allowing for quick access to common features | Makes it very easy for the user to accomplish any task since everything they need is grouped together in a quick access section for their convenience. Doing this also creates a cleanly organized structure.  |
 | All items (messages or file) sent to the database with details | Due to the nature of our database being a relational database, every sent item will be stored with information about the sender, target, timestamp, file size, etc... |
 
+---
+
 ### Step 6: Sketch Views and Record Design Decisions
-![i3 step6 sequence diagram](https://user-images.githubusercontent.com/31861025/49492806-cd810d80-f827-11e8-8c0a-6be946dd8337.PNG)
+![i3 step6 sequence diagram green](https://user-images.githubusercontent.com/31861025/49495154-14730100-f830-11e8-85b9-1c25dd76c27e.PNG)  
 *Sequence diagram for quality attribute QA-3 Fig 3.1*
 
 | Element | Responsibility |
