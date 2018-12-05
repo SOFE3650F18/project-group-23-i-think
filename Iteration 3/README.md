@@ -26,3 +26,15 @@ This iteration focuses on QA-3 quality attribute scenario: The system should be 
 | Database | A relational database that stores all data |
 | User Event History | A file that store a history of all events made by the user |
 | Messenger | The messaging component |
+
+---
+
+### Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
+
+| Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
+|:---:|:---:|:---:| --- |
+|  |  | QA-3 | Established and explained the sequence that occurs when either files are upload or a message is sent.  |
+|  | CON-2 |  | No relevant decisions made. |
+|  |  | CON-7 | Through use of the Activity function in iteration 2, the functionality of the inactivity logout feature has been established. |
+|  |  | CON-9 | Established how event history will be updated. |
+|  | CRN-3 |  | Technologies consider thus far takes into account the developer’s knowledge. Since there could still be more added throughout the system’s life cycle, it has been marked as “partially addressed”. |
