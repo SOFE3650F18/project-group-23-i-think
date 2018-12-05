@@ -8,3 +8,11 @@ This iteration focuses on QA-3 quality attribute scenario: The system should be 
 ![i3 step6 sequence diagram](https://user-images.githubusercontent.com/31861025/49492806-cd810d80-f827-11e8-8c0a-6be946dd8337.PNG)
 *Sequence diagram for quality attribute QA-3 Fig 3.1*
 
+| Element | Responsibility |
+| --- | --- |
+| User | The person using the system |
+| Workstation | The user’s device |
+| CMS Home Page | The UI that the user interacts with. After login, they are presented with the components that allows them to upload file and send messages |
+| Database | A relational database that stores all data |
+| User Event History | A file that store a history of all events made by the user |
+| Messenger | The messaging component |
