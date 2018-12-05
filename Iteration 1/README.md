@@ -49,8 +49,7 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 
 ### Step 6: Sketch Views and Record Design Decisions
 
-![clientside](https://user-images.githubusercontent.com/32312941/49492192-4cc11200-f825-11e8-8cc0-fa768cc4083a.PNG)  
-![serverside](https://user-images.githubusercontent.com/32312941/49492241-7ed27400-f825-11e8-994b-debf753b1a92.PNG)  
+![modules obtained](https://user-images.githubusercontent.com/31861025/49501276-79ceee00-f840-11e8-9f6b-f9af3348243d.png)  
 *Modules obtained from the selected reference architectures Fig 1.2*  
 
 | Elements  | Responsibilities            |
@@ -81,7 +80,4 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 | Relationship | Description |
 |:-------------:|-------------|
 |  Between app server and database server |  Communication with the database will be done using ODBC     |
-
-
-
 
