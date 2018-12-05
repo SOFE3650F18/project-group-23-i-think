@@ -31,6 +31,12 @@
 
 ---
 # Architectural Concerns
+## Given that this is greenfield development, only a few general architectural concerns are identified initially, as shown in the following table:
 | ID        | Constraint          |
 |:-------------:|-------------|
-|  |  |
+| CRN-1 | Establishing initial system structure.  |
+| CRN-2 | Maintaining a consistent UI throughout the entire system.  |
+| CRN-3 | Leverage team’s knowledge using JavaScript for web-based development. |
+| CRN-4 | Evenly distribute workload between members of the development team.|
+
+
