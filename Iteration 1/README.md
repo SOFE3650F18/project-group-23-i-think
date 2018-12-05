@@ -1,4 +1,5 @@
 # Iteration 1: Establishing an Overall System Structure
+
 ### Step 2: Establish Iteration Goal by Selecting Drivers
 The architect must be particularly mindful of the following:
 * QA-1: Availability
@@ -9,14 +10,29 @@ The architect must be particularly mindful of the following:
 * CON-4: UI must be consistent on all browsers and Operating Systems.
 * CON-5: Network connection should still be reliable even if the user has low bandwidth.
 * CRN-2: Maintaining a consistent UI throughout the entire system
-* CRN-3: Leverage team’s knowledge using JavaScript for web-based developmen
+* CRN-3: Leverage team’s knowledge using JavaScript for web-based development
 
+---
 
 ### Step 3: Choose One or More Elements of the System to Refine
 
 The entire CMS system will be refined due to the fact that this is a greenfield development effort. As a result, refinement is performed through decomposition. 
 ![i1 step3 context diagram](https://user-images.githubusercontent.com/31861025/49493693-02429400-f82b-11e8-9b05-1022e73a34e7.PNG)
 *Context diagram for Course Management System (CMS) Fig 1.1*
+
+---
+
+### Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers
+
+| Design Decisions and Location | Rationale and Assumptions |
+| --- | --- |
+| Build the user interface and web application to structure the system for the client | The web application initiated from a web browser that communicates with a server (CRN-1). The presentation layer contains modules that are responsible for managing user interaction. The data layer contains modules that manage the data stored either locally or remotely. The four-level each responsible for the system and it will support. |
+| Four-tier deployment pattern | It allows performance, usability, availability, and security by creating different tiers. This separation is done to improve security as the web server resides in a publicly accessible network. Doing this will assist in achieving our QA’s as well as CON-3. |
+| Rich Client application | It runs on the user’s machine and it will provide high performance and interactive (QA-2). The modules are structured in three or more layers. |
+| User Interface is built using React which is a Javascript framework and Bootstrap 4 is used from overall styling | This is one of the best current JavaScript frameworks and will allow for aspects of the website to be its own component (All UC’s can be made its own component). Also, the good thing about doing this is that it allows for a consistent design no matter what browser or OS the user accesses from CON-3, CON-4, CRN-2. This approach also for development teams to evenly distribute the workload as everyone can individually work on a portion without affecting someone else’s work CRN-3, CRN-5. Lastly, it will be styled using Bootstrap 4 as a means of keeping the entire system consistent (CON-4, CRN-2). |
+| Deploy Javascript web application through notable hosting service | The application will be hosted through “Bluehost” which has a 99.99% (1st in uptime) and is proven to be reliable is handling sites with high traffic (QA-1, QA-2, CON-1, CON-2). Also due to the nature of the React framework, Once a user launches the website, all the file needed will be stored in the memory of the user’s workstation. This ensures that the website will always be running smoothly as everything will already be loaded (QA-2, CON-5). |
+
+---
 
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
@@ -25,12 +41,13 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 | Accessing the time server in the data layer |  The reference architecture is adapted to abstract the access to the time server (UC--7, CON-2, CON-7, CON-8, CON-9). |
 |  Remove local data source in the rich client application  |  The network is reliable so no need to store data locally.   |
 
+---
+
 ### Step 6: Sketch Views and Record Design Decisions
 
-![clientside](https://user-images.githubusercontent.com/32312941/49492192-4cc11200-f825-11e8-8cc0-fa768cc4083a.PNG)
-![serverside](https://user-images.githubusercontent.com/32312941/49492241-7ed27400-f825-11e8-994b-debf753b1a92.PNG)
-Fig 1.1
-
+![clientside](https://user-images.githubusercontent.com/32312941/49492192-4cc11200-f825-11e8-8cc0-fa768cc4083a.PNG)  
+![serverside](https://user-images.githubusercontent.com/32312941/49492241-7ed27400-f825-11e8-994b-debf753b1a92.PNG)  
+*Modules obtained from the selected reference architectures Fig 1.2*  
 
 | Elements  | Responsibilities            |
 |:-------------:|-------------|
@@ -45,19 +62,19 @@ Fig 1.1
 |  Database Access Module SS |  Connects to the main database  |
 |  Secondary Service module SS  |  Data import and export for the secondary system  | 
 
-![step6](https://user-images.githubusercontent.com/32312941/49492989-5e57e900-f828-11e8-9369-f7d13b0f31f1.PNG)
-Initial deployment diagram for CMS Fig 1.3
+![step6](https://user-images.githubusercontent.com/32312941/49492989-5e57e900-f828-11e8-9369-f7d13b0f31f1.PNG)  
+*Initial deployment diagram for CMS Fig 1.3*
 
 
-| Elements  | Responsibilities            |
+| Elements | Responsibilities |
 |:-------------:|-------------|
-|  User workstation |  Hosts the client-side logic of the application     |
-|  Application Server  |  Hosts server-side logic of the application and also serves web pages   |
-|  Database Server |  The server that hosts the legacy relational database    |
-|  Secondary system  |  Sets the external secondary servers    |
+|  User workstation | Hosts the client-side logic of the application |
+|  Application Server | Hosts server-side logic of the application and also serves web pages |
+|  Database Server | The server that hosts the legacy relational database |
+|  Secondary system | Sets the external secondary servers |
 
 
-|  Relationship   |  Description            |
+| Relationship | Description |
 |:-------------:|-------------|
 |  Between app server and database server |  Communication with the database will be done using ODBC     |
 
