@@ -76,10 +76,19 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 |  Database Server | The server that hosts the legacy relational database |
 |  Secondary system | Sets the external secondary servers |
 
----
+
 
 
 | Relationship | Description |
 |:-------------:|-------------|
 |  Between app server and database server |  Communication with the database will be done using ODBC     |
+
+---
+
+### Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
+| Not Addressed | Partially Addressed |  Completely Addressed  |  Design Decisions Made During the Iteration  |
+|:-------------:|:-------------:|:-------------:|-------------| 
+|  |  UC-1  |  |  The reference architecture established modules to support this functionality  |  
+
+
 
