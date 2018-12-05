@@ -1,4 +1,5 @@
 # Use Cases
+https://github.com/SOFE3650F18/project-group-23-i-think/issues/1#issue-387594766
 
 ---
 # Quality Attributes
