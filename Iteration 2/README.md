@@ -16,5 +16,10 @@ UC-1, UC-2, UC-5, UC-6, UC-7, UC-10
 The elements located throughout the layers of the reference architecture from the previous iteration will be refined in this iteration.
 
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+| Design Decisions and Location   | Rationale          |
+|:-------------:|-------------|
+| Accessing the time server in the data layer |  The reference architecture is adapted to abstract the access to the time server (UC--7, CON-2, CON-7, CON-8, CON-9). |
+|  Remove local data source in the rich client application  |  The network is reliable so no need to store data locally.   |
 
+### Step 6: Sketch Views and Record Design Decisions
 
