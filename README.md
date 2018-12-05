@@ -1,7 +1,8 @@
 # SOFE3650FALL2018 – Course Project
-### Software Design and Architectures Project Description and Deliverables
----
+### Software Design and Architectures Project Description and Deliverables  
+
 Course Management System Group 23:
+
 ---
 | Student Name | Student ID |
 | --- |:---:|
@@ -11,6 +12,8 @@ Course Management System Group 23:
 ***
 ### Delivery 1
 
+This delivery includes capturing the use cases, quality attributes and constraint requirements of the CMS  
+* [Delivery 1](https://github.com/SOFE3650F18/project-group-23-i-think/tree/master/First%20Deliverable)
 ***
 ### Delivery 2
 
