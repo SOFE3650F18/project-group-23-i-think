@@ -1,5 +1,9 @@
 # Iteration 1: Establishing an Overall System Structure
 
+![step 1](https://user-images.githubusercontent.com/31861025/49497174-b77a4980-f835-11e8-914b-75f297dad584.PNG)
+
+---
+
 ### Step 2: Establish Iteration Goal by Selecting Drivers
 The architect must be particularly mindful of the following:
 * QA-1: Availability
