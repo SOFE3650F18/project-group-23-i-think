@@ -1,5 +1,7 @@
 ## Iteration 2: Identifying Structures to Support Primary Functionality
-**Step 2: Establish Iteration Goal by Selecting Drivers**  
+------
+
+### Step 2: Establish Iteration Goal by Selecting Drivers 
 
 The architect must address the general architectural concerns of identifying structures to support primary functionality.  
 By doing this, we will also accomplish:  
@@ -9,3 +11,6 @@ The architect must also consider the system’s primary use cases:
 UC-1, UC-2, UC-5, UC-6, UC-7, UC-10
 
 ---
+### Step 3: Choose One or More Elements of the System to Refine
+
+The elements located throughout the layers of the reference architecture from the previous iteration will be refined in this iteration.
