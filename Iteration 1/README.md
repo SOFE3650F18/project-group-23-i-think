@@ -86,9 +86,29 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 ---
 
 ### Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
+
 | Not Addressed | Partially Addressed |  Completely Addressed  |  Design Decisions Made During the Iteration  |
 |:-------------:|:-------------:|:-------------:|-------------| 
-|  |  UC-1  |  |  The reference architecture established modules to support this functionality  |  
+|  |  UC-1  |  |  The reference architecture established modules to support this functionality  | 
+|  |  UC-2  |  |  The reference architecture established modules to support this functionality  |
+|  |  UC-5, UC-6  |  |  The reference architecture established modules to support this functionality  |
+|  |  UC-7  |  |  The reference architecture established modules to support this functionality  |
+|UC-10  |  |  | No relevant decisions made  |
+|  |  |  QA-1  |  Through the use of “Bluehost,” we can ensure that our system will always be available.  |
+|  |  |  QA-2  |  The reference architecture established and enforced through our choice of server which will allow the system to be very efficient.  |
+|  |  QA-3  |  | Identified the framework will be able to accomplish this.  |
+|  |  |  CON-1  |  Our hosting service is proven to be reliable at handling multiple simultaneous users.  |
+|  |  |  CON-2  |  Established that the server will not experience random outages therefore developers have full control as to when to take it offline.  |
+|  |  |  CON-3  |  Javascript is a web-based programming language that is supported on all major web browsers as well being supported on all three Operating Systems.  |
+|  |  |  CON-4  |  Concluded that the  UI will remain consistent due to the use of React and Bootstrap 4.  |
+|  |  |  CON-5  |  Due to the nature of React, the system’s files will be saved to the user thus allowing the user to browse smoothly even on low bandwidth  |
+|  CON-6  |  |  |  No relevant decisions made  |
+|  CON-7  |  |  |  No relevant decisions made  |
+|  CON-8  |  |  |  No relevant decisions made  |
+|  CON-9  |  |  |  No relevant decisions made  |
+|  |  |  CON-10  | Through the use of our hosting service, we will be able to also store the database files on the server.  |
+
+
 
 
 
