@@ -81,6 +81,13 @@ The elements located throughout the layers of the reference architecture from th
 
 *Sequence diagram for use case UC-1 Fig 2.4* 
 
+|  Element | Responsibility |
+|:-------------:|-------------|
+|  Web server | Collect data and process the request from web client |  
+|  Get Request | Responsible for getting request from the client. |
+|  Process Request  |  Responsible for processing request.  |
+|  Database | Responsible for collecting and storing data from web client to web server.  |
+
 ---
 
 ### Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
