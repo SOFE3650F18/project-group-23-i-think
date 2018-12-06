@@ -19,7 +19,7 @@ The elements that will be refined are the 3 physical nodes from iteration 1:
 
 | Design Decisions and Location | Rationale and Assumptions |
 |:---:| --- |
-| Build components for communication between users | This component will allow users to send messages, which is then temporarily stored in the database and then to be displayed in the display component of the receiving users. |
+| Implement components for communication between users | This component will allow users to send messages, which is then temporarily stored in the database and then to be displayed in the display component of the receiving users. |
 | Establish component for uploading files | It will have an upload field so that users can browse their device for a file and then upload it. This sends the file to be stored in the database and updates the user's history with the submission information along with a link to download it from the database |
 
 ---
