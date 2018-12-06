@@ -77,7 +77,7 @@ The elements located throughout the layers of the reference architecture from th
 | Secondary System | Responsible for persistence operation related to the secondary university system. |
 
 
-![sqdia](https://user-images.githubusercontent.com/32312941/49494166-ab3dbe80-f82c-11e8-8df1-b5be9deb5a09.PNG)  
+![sequencedisgramit2](https://user-images.githubusercontent.com/32312941/49555066-6d907280-f8cc-11e8-9a57-d63d4808fcd3.PNG) 
 
 *Sequence diagram for use case UC-1 Fig 2.4* 
 
