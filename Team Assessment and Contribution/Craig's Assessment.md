@@ -7,11 +7,11 @@ By: Marwa Safa
 
 |  Competencies  |  Rating  |  Comment  |
 |:---:| --- |:---:|
-|  Team's Commitment  |  5  |  |
-|  Team's Communication |  5  |   |
-|  Team's Knowledge, Skills and Abilities to perform the project |  5  |  |
-|  Team's Ethical Standards |  5  |  |
-|  Teams Focus  |  5  |  | 
+|  Team's Commitment  |  5  | Great work! |
+|  Team's Communication |  5  |  Strong communication skills |
+|  Team's Knowledge, Skills and Abilities to perform the project |  5  |  The team had all the skills and abilities to perform the project   |
+|  Team's Ethical Standards |  5  |  Excellent Ethical standard  |
+|  Teams Focus  |  5  |  Great focus on completing the project  | 
  
  ---
   #### Ratings
