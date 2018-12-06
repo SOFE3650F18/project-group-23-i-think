@@ -18,16 +18,16 @@ The elements that will be refined are the 3 physical nodes from iteration 1:
 ### Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers
 
 | Design Decisions and Location | Rationale and Assumptions |
-| --- | --- |
-| Build components to for communication between users   |  This component will allow users to send messages, which is then temporarily stored in the database and then to be displayed in the display component of the receiving users.  |
-|  Establish component for uploading files  |  It will have an upload field so that users can browse their device for a file and then upload it. This sends the file to be stored in the database and updates the user's history with the submission information along with a link to download it from the database   |
+|:---:| --- |
+| Build components for communication between users | This component will allow users to send messages, which is then temporarily stored in the database and then to be displayed in the display component of the receiving users. |
+| Establish component for uploading files | It will have an upload field so that users can browse their device for a file and then upload it. This sends the file to be stored in the database and updates the user's history with the submission information along with a link to download it from the database |
 
 ---
 
 ### Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 | Design Decisions and Location | Rationale |
-| --- | --- |
-| Utility component for users allowing for quick access to common features | Makes it very easy for the user to accomplish any task since everything they need is grouped together in a quick access section for their convenience. Doing this also creates a cleanly organized structure.  |
+|:---:| --- |
+| Utility component for users allowing for quick access to common features | Makes it very easy for the user to accomplish any task since everything they need is grouped together in a quick access section for their convenience. Doing this also creates a cleanly organized structure. |
 | All items (messages or file) sent to the database with details | Due to the nature of our database being a relational database, every sent item will be stored with information about the sender, target, timestamp, file size, etc... |
 
 ---
@@ -37,8 +37,7 @@ The elements that will be refined are the 3 physical nodes from iteration 1:
 *Sequence diagram for quality attribute QA-3 Fig 3.1*
 
 | Element | Responsibility |
-| --- | --- |
-| User | The person using the system |
+|:---:| --- |
 | Workstation | The user’s device |
 | CMS Home Page | The UI that the user interacts with. After login, they are presented with the components that allows them to upload file and send messages |
 | Database | A relational database that stores all data |
