@@ -94,7 +94,12 @@ The elements located throughout the layers of the reference architecture from th
 |  |  |  UC-7  |  Modules across the layers and preliminary interfaces supporting this use case have been identified.  |
 |  |  |  UC-10 |  Modules across the layers and preliminary interfaces supporting this use case have been identified.  |
 |  |  QA-3  |  |  No relevant decisions made  |
-
+|  |  | CON-6 | Modules associated with this has been identified through implementation of a login system. |
+|  | CON-7 |  | Implementation of a Boolean function that simply checks for activity. If no activity for defined time system logs out. |
+|  |  | CON-8 | Modules associated with this has been identified as data collection occurs on a defined 5-minute time interval. |
+|  | CON-9 |  | Modules associated with this has been identified and ready for implementation. |
+|  | CRN-3 |  | Selected and identified additional technologies based on the development team’s knowledge. |
+|  |  | CRN-4 | Workload distribution has been established through use of an appointed team leader that oversees and coordinates workflow of component-based development as described in iteration 1 and expanded upon above. |
 
 
 
