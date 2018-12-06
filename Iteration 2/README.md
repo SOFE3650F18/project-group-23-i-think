@@ -86,7 +86,7 @@ The elements located throughout the layers of the reference architecture from th
 ### Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
 
 | Not Addressed |  Partially Addressed  |  Completely Addressed  |  Design Decisions Made During the Iteration  |
-| --- | --- |--- |--- |
+|:---:|:---:|:---:|--- |
 |  |  |  UC-1  |  Modules across the layers and preliminary interfaces supporting this use case have been identified.  |
 |  |  |  UC-2  |  Modules across the layers and preliminary interfaces supporting this use case have been identified.  |
 |  |  |  UC-5  |  Modules across the layers and preliminary interfaces supporting this use case have been identified.  |
