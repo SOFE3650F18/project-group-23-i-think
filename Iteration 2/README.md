@@ -77,9 +77,10 @@ The elements located throughout the layers of the reference architecture from th
 | Secondary System | Responsible for persistence operation related to the secondary university system. |
 
 
-![sequencedisgramit2](https://user-images.githubusercontent.com/32312941/49555066-6d907280-f8cc-11e8-9a57-d63d4808fcd3.PNG) 
+![sequencedisgramit2](https://user-images.githubusercontent.com/32312941/49555066-6d907280-f8cc-11e8-9a57-d63d4808fcd3.PNG)  
+*Sequence diagram for use case UC-1 Fig 2.4*  
 
-*Sequence diagram for use case UC-1 Fig 2.4* 
+This diagram shows how the user's course information is displayed on startup (after the user has successfully logged into the system). Upon launch, the user sends a request to the server to fetch the data. The interaction starts with the database sending the request and if the connection is successful, it will return data and the user will be able to see the result.  
 
 |  Element | Responsibility |
 |:-------------:|-------------|
