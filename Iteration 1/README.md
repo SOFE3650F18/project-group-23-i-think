@@ -81,7 +81,7 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 
 | Relationship | Description |
 |:-------------:|-------------|
-|  Between app server and database server |  Communication with the database will be done using ODBC     |
+| Between app server and database server | Communication with the database will be done using ODBC |
 
 ---
 
@@ -91,7 +91,8 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 |:-------------:|:-------------:|:-------------:|-------------| 
 |  |  UC-1  |  |  The reference architecture established modules to support this functionality  | 
 |  |  UC-2  |  |  The reference architecture established modules to support this functionality  |
-|  |  UC-5, UC-6  |  |  The reference architecture established modules to support this functionality  |
+|  |  UC-5  |  |  The reference architecture established modules to support this functionality  |
+|  |  UC-6  |  |  The reference architecture established modules to support this functionality  |
 |  |  UC-7  |  |  The reference architecture established modules to support this functionality  |
 |UC-10  |  |  | No relevant decisions made  |
 |  |  |  QA-1  |  Through the use of “Bluehost,” we can ensure that our system will always be available.  |
@@ -107,8 +108,7 @@ The entire CMS system will be refined due to the fact that this is a greenfield 
 |  CON-8  |  |  |  No relevant decisions made  |
 |  CON-9  |  |  |  No relevant decisions made  |
 |  |  |  CON-10  | Through the use of our hosting service, we will be able to also store the database files on the server.  |
-
-
-
-
-
+|  |  | CRN-1 |  Selection of reference architectures and deployment patterns. |
+|  |  | CRN-2 |  Concluded that the  UI will remain consistent due to the use of React and Bootstrap 4. |
+|  | CRN-3 |  |  Technologies consider thus far takes into account the developers knowledge. Other technologies still need to be selected  |
+|  | CRN-4  |  |  Each developer will be in charge of their own set of components. However still need to discuss how it will all come together.  |
